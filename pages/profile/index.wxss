@@ -1,0 +1,105 @@
+/* pages/profile/index.wxss */
+.container{
+  margin: 0 40rpx 44rpx;
+}
+.userinfo{
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx 0 45rpx;
+}
+.userinfo .avatar,.userinfo image{
+  width: 162rpx;
+  height: 162rpx;
+  background-color: #BEC0C2;
+  border-radius: 50%;
+}
+.userinfo .content{
+  font-size: 54rpx;
+  color: #181104;
+  margin-bottom: 40rpx;
+}
+.userinfo .follow text{
+  font-size: 22rpx;
+  background-color: #F7F7F7;
+  padding: 5rpx 10rpx;
+  margin-right: 25rpx;
+}
+/* lineTab */
+.linetab{
+  display: flex;
+  justify-content: space-between;
+}
+.linetab .tabitem{
+  width: 48rpx;
+  text-align: center;
+}
+.tabitem image{
+  width: 48rpx;
+  height: 48rpx;
+}
+.tabitem text{
+  font-size: 18rpx;
+}
+/* mine pets */
+.mpets{
+  width: 100%;
+  margin-top: 60rpx;
+}
+.mpets text{
+  font-size: 42rpx;
+  color: #030000;
+}
+.mpets .section{
+  width: 100%;
+  height: 235rpx;
+}
+.scroll-view_H{
+  width: 100%;
+  height: 235rpx;
+  white-space: nowrap;
+}
+.scroll-view_H view{
+  display: inline-block;
+  width: 420rpx;
+  height: 235rpx;
+}
+.scroll-view_H view image{
+  width: 420rpx;
+  height: 235rpx;
+}
+.scroll-view_H .rectangle{
+  position: relative;
+}
+.rectangle .coverInfo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+}
+.coverInfo text{
+  width: 100%;
+  font-size: 24rpx;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: pre-wrap;
+}
+.coverInfo .miniavatar{
+  width: 100%;
+  height: 93rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+.coverInfo .miniavatar image{
+  width: 72rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.coverInfo .miniavatar text{
+  font-size: 32rpx;
+  color: #fff;
+}

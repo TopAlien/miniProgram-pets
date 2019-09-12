@@ -1,0 +1,142 @@
+<!-- banner -->
+<swiper class="card-swiper square-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+    </view>
+  </swiper-item>
+</swiper>
+<!-- banner end -->
+
+<!-- list tab card -->
+<view class='listCard'>
+  <view class='listCardItem' wx:for="{{cardList}}" wx:key="{{item.id}}"  >
+    <image src="{{ item.url }}" bindtap="cardLink" data-targetid="{{item.id}}"/>
+    <text>{{item.text}}</text>
+  </view>
+</view>
+<!-- list tab card end-->
+
+
+<view class="container">
+
+<!-- we story -->
+  <view class="westory">
+    <view class="title">
+      <text>我们的故事</text>
+      <text class="more">查看更多</text>
+    </view>
+    <view class="section">
+      <scroll-view class="scroll-view_H" scroll-x>
+        <view wx:for="{{weStory}}" wx:key>
+          <image src="{{item.url}}"/>
+          <view class="info">
+            <text>{{ item.text }}</text>
+              <text class="comment">评论 {{ item.comment / 1000 }}k</text>
+            <text class="like">喜欢 {{ item.like / 1000 }}k</text>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+<!-- we story end -->   
+
+<!-- nivo -->
+  <view class="nivo">
+    <view class="title">
+      <text>精选文章</text>
+      <text class="more">查看更多</text>
+    </view>
+    <view class="article">
+      <view class="article_item">
+        <view class="article_item-left">
+          <text>当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措</text>
+          <view class="article_item-left-info">
+            <view>
+              <image src="../../assets/home/miao1.png"/>
+              <text>24.4k</text>
+            </view>
+            <text>喵咪</text>
+            <text>10分钟前</text>
+          </view>
+        </view>
+        <view class="article_item-right">
+          <image src="../../assets/home/miao1.png"/>
+        </view>
+      </view>
+      <view class="article_item">
+        <view class="article_item-left">
+          <text>当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措</text>
+          <view class="article_item-left-info">
+            <view>
+              <image src="../../assets/home/miao1.png"/>
+              <text>24.4k</text>
+            </view>
+            <text>喵咪</text>
+            <text>10分钟前</text>
+          </view>
+        </view>
+        <view class="article_item-right">
+          <image src="../../assets/home/miao1.png"/>
+        </view>
+      </view>
+      <view class="article_item">
+        <view class="article_item-left">
+          <text>当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措</text>
+          <view class="article_item-left-info">
+            <view>
+              <image src="../../assets/home/miao1.png"/>
+              <text>24.4k</text>
+            </view>
+            <text>喵咪</text>
+            <text>10分钟前</text>
+          </view>
+        </view>
+        <view class="article_item-right">
+          <image src="../../assets/home/miao1.png"/>
+        </view>
+      </view>
+      <view class="article_item">
+        <view class="article_item-left">
+          <text>当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措当猫不幸发生意外而受伤时，千万别惊慌失措</text>
+          <view class="article_item-left-info">
+            <view>
+              <image src="../../assets/home/miao1.png"/>
+              <text>24.4k</text>
+            </view>
+            <text>喵咪</text>
+            <text>10分钟前</text>
+          </view>
+        </view>
+        <view class="article_item-right">
+          <image src="../../assets/home/miao1.png"/>
+        </view>
+      </view>
+
+    </view>
+  </view>
+<!-- nivo end -->   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

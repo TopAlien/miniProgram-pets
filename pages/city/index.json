@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "宠物城",
+  "usingComponents": {
+    "van-notice-bar": "../../style/dist/notice-bar/index"
+  }
+}

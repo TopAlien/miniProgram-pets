@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/gift/index", 
+    "pages/home/star/index", 
+    "pages/home/hot/index", 
+    "pages/home/news/index", 
+    "pages/city/index", 
+    "pages/profile/index", 
+    "pages/profile/adopt/index", 
+    "pages/profile/foster/index", 
+    "pages/profile/service/index",
+    "pages/profile/collection/index", 
+    "pages/profile/setting/index"
+  ],
+  "tabBar": {
+    "color": "#3F3F3F",
+    "selectedColor": "#3F3F3F",
+    "backgroundColor": "",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/tabBar/home.png",
+        "selectedIconPath": "assets/tabBar/home_active.png"
+      },
+      {
+        "pagePath": "pages/city/index",
+        "text": "宠物城",
+        "iconPath": "assets/tabBar/city.png",
+        "selectedIconPath": "assets/tabBar/city_active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "assets/tabBar/profile.png",
+        "selectedIconPath": "assets/tabBar/profile_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "pets",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

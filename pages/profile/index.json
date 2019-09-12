@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "van-notice-bar": "../../style/dist/notice-bar/index"
+  }
+}

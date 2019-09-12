@@ -1,0 +1,96 @@
+<view class="container">
+  <!-- userinfo -->
+  <view class="userinfo">
+    <view class="content">
+      <text>猫咪铲屎官</text>
+      <view class="follow">
+        <text>关注 20</text>
+        <text>粉丝 88</text>
+      </view>
+    </view>
+    <view class="avatar">
+      <image src="../../assets/profile/avatar.png"/>
+    </view>
+  </view>
+  <!-- userinfo end -->
+
+  <!-- linetab -->
+  <view class="linetab">
+    <view class="tabitem" wx:for="{{lineTab}}" wx:key >
+      <image src="{{item.url}}" data-activeid="{{item.id}}" bindtap="checkTab"/>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+  <!-- linetab end -->
+
+  <!-- mine pets -->
+  <view class="mpets">
+    <text>我的爱宠</text>
+    <view class="section">
+      <scroll-view class="scroll-view_H" scroll-x>
+        <view class="rectangle">
+          <view class="coverInfo">
+            <view class="miniavatar">
+              <image src='../../assets/profile/avatar.png' />
+              <text>泰日天</text>
+            </view>
+            <text>美丽的外表下，藏着一颗骚包的 心，能不能矜持点. . .</text>
+          </view>
+          <image src="../../assets/profile/rectangle1.png"/>
+        </view>
+        <view class="rectangle">
+          <view class="coverInfo">
+            <view class="miniavatar">
+              <image src="../../assets/profile/avatar.png"/>
+              <text>猫妹</text>
+            </view>
+            <text>作为一只纯种泰迪GG，它永远都有 一颗斗天斗地的高傲劲儿！</text>
+          </view>
+          <image src="../../assets/profile/rectangle2.png"/>
+        </view>
+        <view class="rectangle">
+          <view class="coverInfo">
+            <view class="miniavatar">
+              <image src='../../assets/profile/avatar.png' />
+              <text>泰日天</text>
+            </view>
+            <text>美丽的外表下，藏着一颗骚包的 心，能不能矜持点. . .</text>
+          </view>
+          <image src="../../assets/profile/rectangle1.png"/>
+        </view>
+        <view class="rectangle">
+          <view class="coverInfo">
+            <view class="miniavatar">
+              <image src="../../assets/profile/avatar.png"/>
+              <text>猫妹</text>
+            </view>
+            <text>作为一只纯种泰迪GG，它永远都有 一颗斗天斗地的高傲劲儿！</text>
+          </view>
+          <image src="../../assets/profile/rectangle2.png"/>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!-- mine pets end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
